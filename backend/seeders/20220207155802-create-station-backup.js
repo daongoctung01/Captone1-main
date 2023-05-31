@@ -6,7 +6,6 @@ module.exports = {
      * Add seed commands here.
      *
       Example:
-      
     */
 		await queryInterface.bulkInsert(
 			"stations",
