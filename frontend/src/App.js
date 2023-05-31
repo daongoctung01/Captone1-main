@@ -38,7 +38,6 @@ function App() {
 			<AlertAll />
 			<ModalInfo />
 			<DrawerForm />
-
 			<Switch>
 				<Payment path="/payment" exact />
 				<AdminTemplate path="/admin/ticket" exact Component={AdminTicket} />
